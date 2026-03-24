@@ -9,6 +9,13 @@ nhập từ tham số dòng lệnh.
 #include <unistd.h>
 #include <arpa/inet.h>
 
+struct sinhvien {
+    char mssv[16];
+    char hoten[32];
+    char ngaysinh[16];
+    float cpa;
+};
+
 int main(int argc, char *argv[]) {
     if (argc != 3) {
         fprintf(stderr, "Usage: %s <IP> <port>\n", argv[0]);

@@ -1,30 +1,25 @@
 ## Cấu trúc thư mục
 
 ```txt
-(base) nqd@LAPTOP-VA7K6E26:~/workspace/NetworkProgram$ tree
-.
 ├── README.md
-├── build/
+├── build
+├── docs
 └── src
-    ├── btch3
+    ├── bt_24_3     //Bai tap 17/3/2026
+    │   ├── info_client.c
+    │   ├── info_server.c
+    │   └── Result_baitap1.png
+    ├── btch3       //Bai tap 17/3/2026
+    │   ├── Result.pdf
     │   ├── sv_client.c
+    │   ├── sv_log.txt
     │   ├── sv_server.c
     │   ├── tcp_client.c
+    │   ├── tcp_greeting.txt
+    │   ├── tcp_output.txt
     │   └── tcp_server.c
-    ├── ch1/
-    ├── ch2/
-    └── ch3/
+    ├── ch1
+    ├── ch2
+    └── ch3
 
-```
-
-## Build
-*Ví dụ:*
-```cmd
-rootfoder$ gcc src/ch1/vd1.c -o build/vd1
-```
-
-## Run
-*Ví dụ:*
-```cmd
-rootfoder$ ./build/vd1
 ```
